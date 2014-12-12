@@ -1,274 +1,651 @@
 {
-    "settings": {
-        "icons" : true
+  "settings": {
+    "icons": true
+  },
+  "firstname": "Carl",
+  "familyname": "V. Lewis",
+  "linkedin_id": "carlvlewis",
+  "github_id": "carlvlewis",
+  "bio_data": {
+    "email": "carl@carlvlewis.net",
+    "phone": "+1 (912) 816-7007",
+    "website": "http://carlvlewis.net",
+    "stars": [
+      "Data Journalist",
+      "Mobile Developer",
+      "Digital Educator"
+    ],
+    "summary": {
+      "points": [
+        "A post-platform journalist",
+        "web developer",
+        "design thinker",
+        "product manager",
+        "interaction designer",
+        "digital media educator and data visualization developer with more than 7 years of experience in data journalism",
+        "news graphics",
+        "newsroom interactive storytelling",
+        "curriculum design",
+        "digital publishing",
+        "homepage editing",
+        "product management",
+        "media entrepreneurship",
+        "digital strategy/social media management",
+        "mobile front-end design/development",
+        "interaction programming and Wordpress/Drupal content management development."
+      ]
     },
-    "firstname": "Prateek",
-    "familyname": "Agarwal",
-    "linkedin_id": "prat0318",
-    "github_id": "prat0318",
-    "bio_data": {
-        "email": "prat0318 @ cs.utexas.edu",
-        "phone": "+1 (512) 698-3649",
-        "website": "http://prat0318.github.io",
-        "stars": ["Ruby","Python","Git","Cartooning"],
-	"summary": {
-		"points":[
-		"Competent at managing responsibilities in a high-volume atmosphere",
-		"Hard worker, quick learner, and ability to assume responsibility"
-		]
-	},
-        "github_projects": {
-            "details": [
-                {
-                    "project_name": "prat0318/2048-tetris",
-                    "tagline": "Live at [2048-tetris.com](http://2048-tetris.com)",
-                    "description": [
-                        "Wrote a Tetris variant of 2048 game, 1M+ unique visits",
-                        "Made it to the front page of Hacker News for a day(~150 pts), mentioned in TechCrunch."
-                    ]
-                },
-                {
-                    "project_name": "prat0318/gitator",
-                    "tagline": "Live at [Gitator.com](http://gitator.com)",
-                    "description": [
-                        "Finds relevant repositories based on an user's GitHub profile.",
-		    	"Written in Ruby on Sinatra and uses Github's Octokit gem"
-                    ]
-                },
-                {
-                    "project_name": "prat0318/json_resume",
-                    "tagline": "Convert JSON data to pretty resumes in .html, .tex, .md",
-                    "description": [
-                        "Static personal page and resume design using Mustache.",
-                        "Current resume is generated using json_resume."
-                    ]
-                }
-            ]
+    "education": {
+      "show_gpa": true,
+      "schools": [
+        {
+          "degree": "Master",
+          "major": "Digital Media",
+          "institution": "Columbia University Graduate School of Journalism",
+          "graduation_year": 2012,
+          "gpa": " "
         },
-        "skills": {
-            "details": [
-                {
-                    "type": "Programming Languages",
-                    "items": [
-                        "Ruby",
-                        "Python",
-                        "Java",
-                        "C++",
-                        "Javascript",
-                        "PHP"
-                    ]
-                },
-                {
-                    "type": "Web Frameworks",
-                    "items": [
-                        "Sinatra",
-                        "Django",
-                        "Rails",
-                        "Apache"
-                    ]
-                },
-                {
-                    "type": "Databases",
-                    "items": [
-                        "MySQL",
-                        "PostgreSQL",
-                        "IBM Informix",
-                        "IBM DB2"
-                    ]
-                }
-            ]
+        {
+          "degree": "Bachelor",
+          "major": "Journalism,Southern Studies, Honors.",
+          "institution": "Mercer University",
+          "graduation_year": 2011,
+          "gpa": "3.94"
         },
-        "education": {
-	    "show_gpa": true,
-            "schools": [
-                {
-                    "degree": "Master of Science",
-                    "major": "Computer Science",
-                    "institution": "University of Texas at Austin",
-                    "graduation_year": 2015,
-                    "gpa": "3.55/4"
-                },
-                {
-                    "degree": "Bachelor of Technology (Hons.)",
-                    "major": "Computer Science",
-                    "institution": "Indian Insitute of Technology, Kharagpur (IN)",
-                    "graduation_year": 2009,
-                    "gpa": "8.91/10"
-                }
-            ]
+        {
+          "degree": "College",
+          "major": "St. Peter's College International Studies Course",
+          "institution": "University of Oxford, St. Peter's College",
+          "graduation_year": 2010,
+          "gpa": " "
+        }
+      ]
+    },
+    "education details": {
+      "headline": "<b>Education details</b>",
+      "items": [
+        {
+          "title": "M.S. in Digital Media, Honors",
+          "organisation": "Columbia University Graduate School of Journalism",
+          "location": "",
+          "from": "Aug. 2011",
+          "to": "May 2012",
+          "details": [
+            "Specializations in data visualization, interactive design, audience engagement and consumer reporting.",
+            "Specializations in data visualization, interactive design, audience engagement and consumer reporting.",
+            "Elected as online editor and officer for Society of Professional Journalists chapter, the school's official student governing body. As part of this role, I developed a new SPJ site from scratch using Twitter Bootstrap as a framework built on top of the popular WordPress CMS. Grew SPJ digital audience reach among class from 150 per week to 1,482 unique impressions per week.",
+            "Served as online editor for Society for Hispanic Journalists, building organization's website and leading initial marketing efforts."
+          ],
+          "misc":"</i>(Recommendations provided from Susan E. McGregor, Ava Seave and Daniel Medina; Arlene Morgan, Sree Srenevasian and Rebecca Castillo may also be contacted as references).</i>"
         },
-        "acad_achievements": {
-            "items": [
-                "Was among the top 5% in the institute merit list of the undergraduate batch at IIT Kharagpur.",
-                "Secured 383rd Rank in IIT-JEE 2005, an exam conducted by Indian Institute of Technology(s)."
-            ]
+        {
+          "title": "B.A. in Journalism, B.A. in Southern Studies, Honors.",
+          "organisation": "Mercer University",
+          "location": "",
+          "from": "Aug. 2007",
+          "to": "May 2011",
+          "details": [
+            "Graduated summa cum laude with a 3.94 GPA, University Honors, Presidential Service Fellowship and the annual Jimmy Carter Award for Community Outreach and Public Service, given to a graduating senior who exemplifies the school's long-held tradition of servant leadership and community activism by Pres. Carter, a member of the University's Board of Trustees.",
+            "Named \"Most Outstanding Journalism Graduate\" and \"Most Outstanding Southern Studies Graduate.\"",
+            "Named one of two outstanding graduates for \"Great Books,\" Mercer's interdisciplinary literature program that allows qualified, high-scoring students to replace their core curriculum requirements with a series of intensive discussion-driven and essay-heavy readings of texts that have shaped the Western canon."
+          ],
+           
+          "points":[
+            {"headline":"<b>SELECTION OF COURSES TAKEN (All A+)</b>"},
+            "Digital Media Storytelling (A)",
+            "News Writing Basics (A)",
+            "Journalism Ethics (A)",
+            "Journalism Law (A)",
+            "Southern Food (A)",
+            "African-American History I, II (A)",
+            "Media Studies (A)",
+            "African-American Literature (A)",
+            "Southern Journalists (A)",
+            "Servant Leadership (A)",
+            "Urban Revitalization: Practices and Theories (A)",
+            "Applied Statistics (A)",
+            "Data Journalism (A)",
+            "Introduction to Computer Science (A)",
+            {"headline":"<b> COURSES TAUGHT: </b>"},
+            "\"UNV 101\" - An introduction to life \"beyond the shadows of Plato's cave,\" or an introduction for college freshman to the journey of their next four years. Taught course as a Peer Advisor in a pass/fail environment.",
+            "\"JMS 262 - Civic and Community Journalism\" - After applying for and receiving a micro-grant from the Knight Foundation, I led Dr. Jay Black's Civic and Community Journalism course in the spring of 2008 to build an online student-produced guide to the City of Macon – a semester-long project in which I regularly provided feedback, scheduled one-on-one time with fellow peers who needed extra learning time and consulted with Dr. Black on the class' progress weekly to help determine student grades based on not just their own content, but their contribution and collaboration with the team.",
+            {"headline":"<b> COURSES DEVELOPED: </b>"},
+            "\"SST 480: Schizoprenia, Relocation and Dislocation in the Minds of Southern Journalists\" – With oversight from Southern Studies and English Professor Dr. David A. Davis – as well as input from Dr. Jay Chalfa from the Journalism and Media Studies Department – I assembled the curriculum and format for this independent study course, which analyzes the historical writings of prominent southern journalists to highlight the identity crisis of claiming a regional culture so blind to its own inhumanities, with a level of worldliness and fact-based observation that only journalists have traditionally had. The course is now regularly included in the SST and JMS curriculum. <i>Dr. David A. Davis may be contacted as a reference.</i>",
+            {"headline":"<b> COURSES PRECEPTED: </b>"},
+            "\"FYS 101: Composing the Self,\" under the leadership of Dr. David A. Davis.",
+            "\"Southern Studies in the Classroom,\" a summer-long course for high-school teachers funded by the National Endowment for the Humanities and held at Mercer University."
+            ],
+            "misc":"<i>(Recommendations provided from Dr. Jay Black, Grant Blankenship and Josh Rogers; Dr. Sarah Gardner, Debbie Blankenship, Andrew Haeg, Dr. Tom Huber, Dr. David A. Davis, Dr. John Chalfa and Dean Larry Brumley may also be contacted for references).</i>"
         },
-        "experience": {
-            "items": [
-                {
-                    "title": "Graduate Research Assistant",
-                    "organisation": "CTR, UT Austin",
-		    "location": "",
-                    "from": "Sept. 2013",
-                    "to": "Jan. 2014",
-                    "details": [
-                        "Developed a common web interface <<http://unitydatabase.com>> to search through different datasets and output aggregate results and ensuring easy pluggability of new datasets."
-                    ],
-                    "technology_used": {
-                        "tools": [
-                            "Python",
-                            "Django",
-                            "South",
-                            "PostgreSQL"
-                        ]
-                    }
-                },
-                {
-                    "title": "SDE II (Software Development Engineer II)",
-                    "organisation": "Flipkart",
-		    "location": "India",
-                    "from": "Apr. 2013",
-                    "to": "Jul. 2013",
-                    "details": [
-                        "Wrote a ruby gem _Morsel_ to traverse through active record trees to purge old records. It helped in limiting the production database size and keeping the data clean."
-                    ]
-                },
-                {
-                    "title": "Software Development Engineer",
-                    "organisation": "Flipkart",
-		    "location": "India",
-                    "from": "Jun. 2011",
-                    "to": "Mar. 2013",
-                    "details": [
-                        "Was part of a team which developed the warehouse module in RoR framework from scratch. It now scales to around 10X as compared to the ERP system existed.",
-                        "Designed warehouse stock snapshots and stock ledger framework using Pig scripts to make the supply chain system legally compliant."
-                    ],
-                    "technology_used": {
-                        "tools": [
-                            "Ruby",
-                            "Java",
-                            "Pig",
-                            "Active Records",
-                            "MySQL"
-                        ]
-                    }
-                },
-                {
-                    "title": "Software Engineer",
-                    "organisation": "IBM Software Labs",
-		    "location": "India",
-                    "from": "Jul. 2009",
-                    "to": "Jun. 2011",
-                    "details": [
-                        "Handled high priority issues for JDBC client driver for IBM Informix database.",
-                        "Was awarded Smart CADian award for resolving an obscure deadlock situation, making Informix JDBC driver more robust."
-                    ],
-                    "technology_used": {
-                        "tools": [
-                            "Java",
-                            "IBM Informix",
-                            "IBM DB2"
-                        ]
-                    }
-                }
-            ]
+        {
+          "title": "St. Peter's College International Studies Course",
+          "organisation": "University of Oxford, St. Peter's College",
+          "location": "",
+          "from": "Aug. 2009",
+          "to": "Jun. 2010",
+          "details": [
+            "Earned all \"Alphas\" during selective year-long course of study at Oxford's St. Peter's College for visiting students.",
+            "Hired as news editor for The Oxford Student newspaper during my second term, which I later parlayed into \"Online Editor\" overseeing the successful implementation of a digital overhaul for the publication. Asked to stay on as Editor-in-Chief, but unfortunately had to fulfill requirements at my undergraduate institution and was unable to do so.",
+            "Trained student editors, veteran and first-timers, on the basic components of the traditional industrialized American news writing formula.",
+            "Assigned stories, laid out news pages, budgeted editorial content and reported dozens of own investigations. ",
+            "Formatted content for the web, including adding hyperlinks, photos and optimizing stories for social sharing."
+          ],
+          "points":[
+            {"headline":"<b>TUTORIALS (COURSES) TAKEN:</b>"},
+            "Celtic History",
+            "Cold War Media Propaganda",
+            "The Philosophy and Dogma of Nietzsche",
+            "Western Media Impact in Developing Nations",
+            "British History",
+            "Educational Technology"
+            ],
+          "misc":"<i>(Recommendations provided from Winston Featherly-Bean and Tom Rowley; Penelope Francis-Warner and Dr. John Jackson may also be contacted as references.).</i>"
+        }
+      ]
+    },
+    "experience": {
+      "items": [
+        {
+          "title": "Research Assistant",
+          "organisation": "Tow Center for Digital Journalism",
+          "location": "",
+          "from": "Oct. 2014",
+          "to": "present",
+          "details": [
+            "Assisting in Tow Center's research endeavors.",
+            "Preparing own research for upcoming report on optimizing data visualization projects for mobile users."
+          ]
         },
-        "other_projects": {
-            "items": [
-                {
-                    "headline": "Designed product _Omerta_, a multi-user chat room application in j2me using Sun Wireless Toolkit platform.",
-                    "points": [
-                        "Was awarded 1<sup>st</sup> position for the product in [Envision](http://www.ecell-iitkgp.org/envision.php), Product Innovation Contest, IIT KGP.",
-                        "Was awarded 1<sup>st</sup> position for the product in Javawise, J2ME s/w Development Contest at IIT Kharagpur, 2008 and 2009 continuously."
-                    ]
-                }                
-            ]
+        {
+          "title": "Data Journalism Consultant",
+          "organisation": "Vocativ",
+          "location": "",
+          "from": "Aug. 2014",
+          "to": "Sept. 2014",
+          "details": [
+            "Invited to serve as one-month, in-house training consultant for Vocativ.com's rapidly expanding Manhattan newsroom, primarily teaching reporters how to incorporate and visualize data in their stories in a way that sheds a new light on the story for users."
+          ]
         },
-        "grad_courses": [
-            {
-                "name": "Distributed Computing",
-                "url": "http://www.cs.utexas.edu/users/lorenzo/corsi/cs380d/13F/"
-            },
-            {
-                "name": "Feature Oriented Programming",
-                "url": "http://www.cs.utexas.edu/users/dsb/cs392f"
-            },
-            {
-                "name": "Multicore Programming",
-                "url": "http://www.cs.utexas.edu/~pingali/CS395T/2013fa"
-            }
-         ],
-        "undergrad_courses": [
-            {
-                "name": "Network Systems",
-                "url": "http://www.facweb.iitkgp.ernet.in/~agupta/netlab/"
-            },
-            {
-                "name": "Graph Theory",
-                "url": "http://cse.iitkgp.ac.in/~agupta/graph/"
-            }
-	],
-        "research_experience": {
-            "items": [
-                {
-                    "title":"Undergraduate project",
-                    "organisation": "Sanyog Lab, IIT Kharagpur",
-                    "from": "Jul. 2008",
-                    "to": "May 2009",
-                    "points": [
-                        "Designing and Formal modelling of embedded systems for project Sanyog.",
-                        "Skills Developed: Low level system design, theorem verification using Prolog and Coq"
-                    ]
-                },
-                {
-                    "title":"Summer Intern",
-                    "organisation": "Network Systems Lab, IIT Kharagpur",
-                    "from": "May 2008",
-                    "to": "Jun. 2008",
-                    "points": [
-                        "Design and simulation of currently published Pull-based Freshness Schemes in C++."
-                    ]
-                },
-                {
-                    "title":"Summer Intern",
-                    "organisation": "Telemedicine Lab, IIT Kharagpur",
-                    "from": "May 2007",
-                    "to": "Jun. 2007",
-                    "points": [
-                        "Web based medical image browsing and annotation tools for PDA devices in .NET platform."
-                    ]
-                }
-            ]
+        {
+          "title": "Adjunct instructor, faculty news organization advisor",
+          "organisation": "Center for Collaborative Journalism at Mercer University",
+          "location": "",
+          "from": "Jun. 2013",
+          "to": "present",
+          "details": [
+            "Teach courses on JavaScript, HTML and CSS basics, mobile development best-practices, real-time reporting, data journalism and visual storytelling",
+            "Serve alongside faculty, journalists and media professionals as an instructor for annual Camp CCJ for digital media students at Center for Collaborative Journalism.",
+            "Spoken on panels with editors and professors, including - How is Journalism Different in the Digital Age? , - Social Media for Journalists, - Building a Brand as a Journalist  and  - Mobile App Development with Little-to-No Programming Experience.",
+            "Led lightning talks on topics including -Making the Business of Digital Journalism Work, -Audience and Metrics and -Wireframing, Prototyping and UX. -Serve as advisor for student news organization, The Cluster, leading quarterly workshops and remotely helping fix problems as they may arise on mercercluster.com. Oversaw 2014 redesign of site."
+          ]
         },
-        "extra_curricular": {
-            "items": [
-                "Was awarded 2<sup>nd</sup> position in Bionetics, Coding Event, Genesis 09 at IIT Kharagpur.",
-                "Microsoft Student Partner of IIT Kharagpur from the period July 08 – June 09."
-            ]
+        {
+          "title": "Co-Founder",
+          "organisation": "Borrow.ly",
+          "location": "",
+          "from": "March 2003",
+          "to": "present",
+          "details": [
+            "Upon receiving a $5,000 exploratory grant from The Collaborative Fund in early 2014, my business partner and I set out to build the product I long believed could help shift decades of audience and revenue loss at daily newspapers from the once-lucrative classified advertising section, revenue which was swiftly poached by P2P exchanges such as Craigslist and eBay.",
+            "We built the product using the Ruby on Rails programming language, and it received widespread acclaim and a loyal local audience in our initial target market in Fort Greene, Brooklyn.-Briefly named : one of Silicon Alley's hottest civic-tech startups by StartupBoost.",
+            "Unforeseen circumstances, including the death of my mother and my business partner's acceptance of a full-time offer at Google, shelved the project for the time being."
+          ]
         },
-	"papers": {
-	   "items": [
-	   		{
-			"authors":"Michl Dugls, Mrclo Dsconi",
-			"title":"Some exotic dummy title like potentials arising from string compactifications",
-			"misc":"arXiv: 1206.1885, June 2012"
-			} 
-		   ]
-	},
-	"patents": {
-	   "items": [
-		   	{
-			"patent_id":"US Patent X,XXX,634",
-			"url":"",
-			"issuance_date":"September 15, 1992",
-			"title":"Another exotic title like bed cover with an inflatable human form."
-			}
-		   ]
-	},
-	"memberships": {
-	   "committees": [
-			"Member of the ACM awesomest humans secret group, 2008-present"
-		   ]
-	}
+        {
+          "title": "Instructor, \"Basics of Modern Web Design\"",
+          "organisation": "Shuttl.es",
+          "location": "",
+          "from": "April 2014",
+          "to": "July 2014",
+          "details": [
+            "Taught a 12-week micro-learning course via email and in person at the Brooklyn-based TinyLabs, NYC.-Instructed students ranging in age from as young as 15 to as old as 52.",
+            "5 in-person classes, 20 micro-lessons digitally."
+          ]
+        },
+        {
+          "title": "Newsroom Change Consultant",
+          "organisation": "Jacksonville Daily-Record",
+          "location": "",
+          "from": "Jan. 2013",
+          "to": "Feb. 2014",
+          "details": [
+            "Developed device-agnostic stylesheet and more user-friendly editorial placement of content.",
+            "Monetized digital presence with local display and inline ads.",
+            "Presented legal, real estate and public notice data in interactive format.",
+            "Implemented integrated print and digital CMS that uses Google Docs as intermediary between InCopy and Wordpress.",
+            "Trained staffers/journalists on new CMS, mobile reporting, social media best practices."
+          ]
+        },
+        {
+          "title": "Digital Media Manager, Online Editor, Social Media Editor",
+          "organisation": "Savannah Morning News (Morning News Media)",
+          "location": "",
+          "from": "Aug. 2012",
+          "to": "Jan. 2014",
+          "details": [
+            "Worked as Digital Media Manager in Savannah following the death of my father to be closer to my mom.",
+            "Oversaw content production, digital/social outreach and product development for savannahnow.com, dosavannah.com and other cross-platform company products, achieving a nearly 500 percent growth in social reach and a record 7 million monthly pageviews.",
+            "Managed team of online producers/digital journalists; collaborated with traditional reporters and editors on optimizing print content for digital platforms; worked with marketing and sales departments to bridge the gap between editorial and sales in an ethical manner.",
+            "Developed and executed growth strategies for company-wide social media platforms, including existing accounts on Facebook and Twitter and new accounts on Instagram, Vine, Tumblr and Pinterest to reach younger audiences,",
+            "Increased weekly average social reach from 21,000 to an average of 375,000 by end date. Grew Facebook fans from approximately 8.5K to 24K.",
+            "Introduced \"sponsored posts\" on dosavannah.com, as well as \"sponsored tweets\" using retweets from the handle @SMNsponsored.",
+            "Increased Facebook following by more than 115 percent in less than a year. Started new Instagram account that gained 1,400 followers within 7 months.",
+            "Monitored and responded to metrics using Adobe Omniture, Google Analytics, Chartbeat, Parse.ly, Sprout Social and Sparkwise.",
+            "Introduced and trained staffers on new interactive forms of storytelling that allowed producers and reporters to visualize public data with little programming skills.",
+            "Led native app development for iOS and Android platforms. Responsible for 19K app downloads.",
+            "Developed HTML5/responsive content strategies and products, including the June 2013 launch of dosavannnah.com.",
+            "Represented company on Morris Publishing Group's corporate-wide Social Media and Mobile Stategy task-forces",
+            "Redesigned Savannah Morning News Mobile App, causing a threefold increase in active users in two weeks."
+          ]
+        },
+        {
+          "title": "Product Manager, Digital Content Marketer, Front-End Developer",
+          "organisation": "DoSavannah.com (Morning News Media)",
+          "location": "",
+          "from": "March 2013",
+          "to": "Nov. 2013",
+          "details": [
+            "As a way to reach younger demographics, our management team at Savannah Morning News decided to expand its arts and culture section into a standalone alt-weekly. I was tasked with building the digital products.",
+            "Developed, designed and launched dosavannah.com and its associated native iOS and Android apps, in addition to my responsibilities as Digital Media Manager.",
+            "Introduced \"Sponsored Posts,\" a native advertising plan that garnered more than $30,000 in new sponsorship revenue its month-long first sales round.",
+            "Created editorial workflow and trained staffers on using Drupal 7 as a CMS.",
+            "Introduced \"The Big Calendar,\" which quickly became Savannah's top-visited event guide."
+          ]
+        },
+        {
+          "title": "Online Editor",
+          "organisation": "Exposition Magazine",
+          "location": "",
+          "from": "March 2010",
+          "to": "Apr. 2012",
+          "details": [
+            "Developed website and online publishing system for current affairs magazine at Oxford University using WordPress backend.",
+            "Oversaw online content and site production for expositionmagazine.com, including measuring and reporting site analytics, developing SEO strategies and retooling UX to fit the needs of print redesign. ",
+            "Managed digital advertising sales and placement with sponsors Pulse Printing and Oxford Castle.",
+            "Temporarily maintained and managed site from abroad; wrote detailed site documentation for future maintenance."
+          ]
+        },
+        {
+          "title": "Director of Digital Media",
+          "organisation": "The Cluster & mercercluster.com",
+          "location": "",
+          "from": "Nov. 2010",
+          "to": "Jul. 2012",
+          "details": [
+            "Founded, developed and launched MercerCluster.com, the online edition of Mercer University's student newspaper, The Cluster.",
+            "Created digital workflow, trained staff in content management, drafted detailed site documentation for future student editors.",
+            "Grew Facebook ‘likes’ from around 30 to more than 900 in less than a month with integrated social media campaign, involving a grassroots contest and non-monetary incentives."
+          ]
+        },
+        {
+          "title": "News Editor, Online Editor",
+          "organisation": "The Oxford Student",
+          "location": "",
+          "from": "Jan. 2009",
+          "to": "June 2009",
+          "details": [
+            "Produced and edited entire 12-page news section of the University of Oxford’s official student newspaper.- Managed team of 14 reporters and covered more than 40 stories individually.",
+            "Redesigned newspaper website and developed digital workflow. ",
+            "Trained staff in content management system. "
+          ]
+        },
+        {
+          "title": "Metro intern, weekend cops reporter",
+          "organisation": "The Telegraph & macon.com",
+          "location": "",
+          "from": "May 2009",
+          "to": "Dec. 2010",
+          "details": [
+            "Worked first as a news reporting intern, then as a weekend beat reporter at Georgia's third-largest daily newspaper.",
+            "Covered general news assignments, as well as local/state politics, crime and education beats.",
+            "Covered more than 110 deadline news stories as an undergraduate."
+          ]
+        }
+      ]
+    },
+    "Professional affiliations": {
+      "headline": "<b>Professional affiliations</b>",
+      "points": [
+        "NICAR (National Institute for Computer Assisted Reporting)",
+        "Online News Association.",
+        "Open Data NYC.",
+        "Institute for Southern Studies at Mercer University",
+        "Hacks/Hackers NYC.",
+        "TedX Savannah.",
+        "Georgia Press Association.",
+        "The Creative Coast",
+        "Center for Collaborative Journalism, Mercer University",
+        "Knight Labs at Northwestern University",
+        "BetaNYC",
+        "CSV Soundsystem",
+        "Columbia Entrepreneurship Society",
+        "Society for News Design",
+        "NYC d3.js Meetup Organizer"
+      ]
+    },
+    "other_projects": {
+      "misc": "<i>(NOTE: A more comprehensive sampling of previous work can be accessed at carlvlewis.net.)</i>",
+      "items": [
+        {
+          "headline": "Interactive: Savannah-Chatham Restaurant Inspection Database",
+          "points": [
+            "Worked with the Chatham County Health Department, which serves a population of more than 420,000 residents, to integrate county-wide restaurant inspection scores into an XML feed that populates an interactive map produced with CartoDB + Leaflet.js that includes filterable, color-coded markers for each score, allowing users to drill down geographically or filter to see the worst scores."
+          ]
+        },
+        {
+          "headline": "The 12 Percent: How People in the Bronx are Coping With the Unemployment Crisis",
+          "points": [
+            "Led design, production, project management, narrative and presentation of class-wide project on the unemployment crisis and its effects on the Bronx for The Bronx Ink."
+          ]
+        },
+        {
+          "headline": "SavannahNow St. Patrick's Day 2013 Mobile App",
+          "points": [
+            "Managed all aspects of project development for Savannah Morning News' mobile app for the 137th Annual St. Patrick's Day Parade and Festival, the second-largest annual St. Patrick's gathering the nation. Success of app, reaching nearly 10,000 downloads, drove savannahnow.com to reach record unique visitors and pageviews."
+          ]
+        },
+        {
+          "headline": "Storm Guide by savannahnow.com and Georgia Power",
+          "points": [
+            "For the 2013 hurricane season, I built a native iOS and Android app with an accompanying HTML5 mobile site to tie in with the print edition of our annual “Hurricane Guide” sponsored by Georgia Power. Sponsorship netted $30,000 in new revenue for company."
+          ]
+        },
+        {
+          "headline": "Interactive: Who are the biggest polluters in Georgia – and why?",
+          "points": [
+            "Worked alongside SMN environmental reporter Mary Landers to distill EPA data into meaningful metrics, using the resulting benchmarks to produce an interactive bubble map, charts and table of the states's worst offenders."
+          ]
+        },
+        {
+          "headline": "Interactive: Chatham County Commission Payments Vary Widely. But why?",
+          "points": [
+            "Worked alongside SMN county government reporter Eric Curl to take county spending data and break down the logical gaps and holes, which later resulted in a three-part investigative series on the county's inaccurate budgeting habits."
+          ]
+        }
+      ]
+    },
+    "skills": {
+      "details": [
+        {
+          "type": "Web Development",
+          "items": [
+            "HTML5",
+            "CSS3",
+            "Javascript",
+            "Python-Django",
+            "d3.js",
+            "WordPress/Drupal development",
+            "Twitter Bootstrap",
+            "Ruby on Rails",
+            "Git workflow",
+            "Markdown",
+            "jQuery",
+            "CartoDB",
+            "Leaflet.js",
+            "Curriculum Design"
+          ]
+        },
+        {
+          "type": "Digital Media",
+          "items": [
+            "Digital Media Business Models",
+            "Hacking the news",
+            "iPhoneography/mobile reporting",
+            "Multimedia/real-time reporting.",
+            "Interactive storytelling.",
+            "MapBox Studio-Open Street Maps",
+            "News metrics and analytics",
+            "Content marketing for newsrooms",
+            "Digital audience acquisition and retention strategies",
+            "Deadline daily news writing and reporting",
+            "Data visualization under deadline",
+            "Journalism in all formats (post-platform)",
+            "R",
+            "Educational technology.",
+            "Syllabus/curriculum preparation and delivery.",
+            "Data Visualization",
+            "Google tools (viz. playground, fusion tables, Refine, etc.)",
+            "Documentation writing"
+          ]
+        }
+      ]
+    },
+    "extra_curricular": {
+      "items": [
+        {
+          "title": "Excellence in Social Media",
+          "organisation": "Morris Publishing Group,",
+          "from": "",
+          "to": "Aug. 2013",
+          "points": [
+            "Awarded Morris-wide \"Excellence in Social Media\" out of all 48 Morris print and broadcast properties for strategic growth of Savannah Morning News & savannahnow.com's social media outreach."
+          ]
+        },
+        {
+          "title": "MJ Bear Fellowship, Honorable Mention.",
+          "organisation": "Online News Association",
+          "from": "",
+          "to": " June 2012",
+          "points": [
+            "Received honorable mention for highly-coveted MJ Bear Fellowship for a project I built for Savannah Morning News that sought to reinvent the classifieds (SavSwap)."
+          ]
+        },
+        {
+          "title": "Best Online News Project",
+          "organisation": "Georgia Press Association",
+          "from": "",
+          "to": " June 2013",
+          "points": [
+            "Led coverage of 187th St. Patrick's Day Parade in Festival in Savannah for savannahnow.com, taking home the award of \"Best Online News Project\" in the Georgia Press Association's 2013 Better Newspapers Competition."
+          ]
+        },
+        {
+          "title": "Data Journalism Honors, Business of Journalism Honors.",
+          "organisation": "Columbia University",
+          "from": "",
+          "to": " May 2012",
+          "points": [
+            "Awarded one of two school-wide honors designations for both Data Journalism, Business of Journalism courses in 2012."
+          ]
+        },
+        {
+          "title": "Best Entertainment News Site",
+          "organisation": "Georgia Press Asssociation",
+          "from": "",
+          "to": " April 2014",
+          "points": [
+            "Led development of the mobile web and native app components of dosavannah.com, which took home the award of \"Best Entertainment News Site\" in Georgia Press Association's 2014 Better Newspaper Competition."
+          ]
+        },
+        {
+          "title": "Best Interactive News Project",
+          "organisation": "Tow Center for Digital Journalism,  Digital Media Hackathon.",
+          "from": "",
+          "to": " 2011",
+          "points": [
+            "Team-leader of winning project."
+          ]
+        },
+        {
+          "title": "Valerie B. Edmonds Student Research Award.",
+          "organisation": "Mercer University",
+          "from": "",
+          "to": " May 2010",
+          "points": [
+            "Essay on Southern writer Thomas Nelson Payne's use of what I call \"literary blackface\" to diminish and distort the African-American voice."
+          ]
+        },
+        {
+          "title": "Best College Newspaper Website",
+          "organisation": "Society of Collegiate Journalists",
+          "from": "",
+          "to": "2012"
+        },
+        {
+          "title": "Robert C. Byrd Honors Scholar",
+          "organisation": "U.S. Dept. of Education, State Service Agency.",
+          "from": "2007",
+          "to": " 2011"
+        },
+        {
+          "title": "Mercer Service Scholar Fellow",
+          "organisation": "Mercer University, Office of Student Life",
+          "from": "2007",
+          "to": " 2011"
+        }
+      ]
+    },
+    "Community_and_Academic_Service": {
+      "headline": "<b>Community and Academic Service</b>",
+      "points": [
+        "The Basics: Committee Chair,\" Led College Hill Alliance (Knight Foundation) task-force on ways to rebrand negative perceptions of Macon, Ga.'s urban core and highlight the benefits of intown and downtown living.",
+        "High School Web Development Tutor, Savannah-Area Junior League. "
+      ]
+    },
+    "papers": {
+      "headline": "<b>Academic Publications</b>",
+      "items": [
+        {
+          "authors": "Lewis, Carl V.",
+          "title": "Big Data, Small Screens: Displaying Complex, Multivariate Datasets on Mobile – and Does Consumer Mobile Usage Indicate a Positive ROI? Forthcoming from the Tow Center for Digital Journalism.",
+          "misc": ""
+        },
+        {
+          "authors": "Lewis, Carl V.",
+          "title": "Transcending the 'Editorial Thunder': Atlanta's Newspaper Coverage of the 1960 Student Lunch-Counter Sit-ins.",
+          "misc": "The Spires. Mercer University Press; Macon, Ga., 2011. ",
+          "points": [
+            "Later invited to present findings at 2011 \"Southern Writers, Southern Writing\" conference in Oxford, Mississippi, the field's pre-eminent research conference."
+          ]
+        },
+        {
+          "authors": "Lewis, Carl V.",
+          "title": "The Newspaper that Fell From its Ivory Tower: Why the Internet isn't to Blame for the Decline of The Philadelphia Inquirer.",
+          "misc": "May 2012",
+          "points": [
+            "Approved with highest commendation by thesis committee of Columbia Journalism School.",
+            "Overseen by Arlene Morgan, dean of Pulitzer Prizes."
+          ]
+        }
+      ]
+    },
+    "Interests": {
+      "headline": "<b>Interests</b>",
+      "points": [
+        "Machine learning",
+        "predictive analytics",
+        "newsroom collaboration",
+        "future news business models",
+        "display of multivariate datasets on mobile devices",
+        "journalism education",
+        "data visualization",
+        "information design",
+        "digital security/source protection",
+        "d3.js",
+        "color psychology."
+      ]
+    },
+    "Talks_Presentations_Workshops": {
+      "headline": "<b>Talks, Presentations, Workshops</b>",
+      "items": [
+        {
+          "headline": "Big Data, Big Bucks: The Business of Data Parsing for Predictive Analytics",
+          "points": [
+            "Talk presented at TedX Savannah on the use of browsing history for ad retargeting, personalization and prediction, 2013.",
+            "Available for viewing on Slideshare."
+          ]
+        },
+        {
+          "headline": "Data Visualization in the Newsroom.",
+          "points": [
+            "Two-day workshop tailored to and led at 7 different newsrooms owned by Morris Publishing Group, including Amarillo Globe, Topeka Capital Journal, Florida Times-Union, Athens Banner-Herald and Augusta Chronicle.",
+            "Available for viewing on Slideshare."
+          ]
+        },
+        {
+          "headline": "Data Journalism 10",
+          "points": [
+            "Talk given to 2014 Camp CCJ retreat introducing the concepts of data journalism to incoming freshman interested in media studies. Available on SlideShare."
+          ]
+        },
+        {
+          "headline": "Visual Storytelling Using Social Media.",
+          "points": [
+            "Lecture given at Digital Media CCJ Retreat 2013 on using visual-centric social networks such as Instagram, Vine and Pinterest both to report the news and engage new audiences with visually-appealing content. Available on Slideshare."
+          ]
+        },
+        {
+          "headline": "The Skills of the Post-Platform Journalist.",
+          "points": [
+            "Lightning talk at Digital Media CCJ Retreat 2014 proposing the term \"post-platform journalist\" among journalists, emphasizing the message above all else and the need to stay abreast on communicating via all platforms and mediums in current industry landscape."
+          ]
+        },
+        {
+          "headline": "Why Cities Matter, and What We Can Do To Rebuild Them.",
+          "points": [
+            "Presentation delivered at Mercer University 2009 Freshman Class Orientation on the importance of community involvement, urbanism and socially-responsible revitalization."
+          ]
+        }
+      ]
+    },
+    "Recommendations": {
+      "headline": "<b>Recommendations</b>",
+      "items": [
+        {
+          "headline": "Susan E. McGregor, Assistant Director, Tow Center for Digital Journalism at Columbia University (former professor, current supervisor):",
+          "points": [
+            "During the spring of 2012, I was fortunate to have Carl as a student in my class on Data Joumalism and Information Visualization at Columbia Journalism School. Throughout the semester, Carl proved to be a bright, dedicated student and valuable team partner whose enthusiasm, insight, and considerable skills enhanced both classroom discussions and his individual and group projects. Unlike most of his classmates, Carl arrived in my class with a fair amount of experience in programming and web development, having created content management systems for small websites for several years. Though this meant that Carl was already familiar with many of the concepts we discussed in class - especially during our programming labs - he engaged fully with all of the lessons and class discussions, using his existing skills as a springboard to take given assignments above and beyond what was required, rather than using them as a crutch to skate through the material. This was evident most distinctly towards the end of the semester, when, having had to miss some weeks of school due to very significant personal loss, Carl not only made up his missed assignments but went beyond a simple blog response and executed his final critiques with a level of rigor and detail that would be welcome in any professional circle. He also redoubled his contributions to his group’s final project, which was one of the class’s most sophisticated and successful.Carl's unique critical, academic and personal achievement led me to award him the only honor's designation among the 15 students in my class – a recognition that he richly deserves. He is a person whom I would gladly welcome as a newsroom colleague myself, and I think any organization that has the opportunity to work with him will quickly feel the same."
+          ]
+        },
+        {
+          "headline": "Jonathan Bennett, Web Development Manager, HealthGrades.com:",
+          "points": [
+            "Carl is a terrific digital mind. He has proven his fluency in several critical web development languages - HTML5, CSS, Javascript and PHP - and he uses those skills to craft engaging, intuitive digital projects. Better still, Carl is fully capable of disseminating his knowledge to his team and coworkers. He is no closet-and-dark-room developer; he can lead a team from concept to finished project. And like any good journalist, he's detail oriented and deadline driven."
+          ]
+        },
+        {
+          "headline": "Ava Seave, Professor, Columbia Business School. Principal, Quantum Media:",
+          "points": [
+            "Carl was a terrific and accomplished participant in the class, 'Making the Business of Journalism Work.' He was super dependable in discussions, always participating and frequently giving an interesting twist. All of his writing was excellent, having practically perfect papers each time. At the end of the semester, Carl had a thorough and sophisticated understanding of the principles of the class. He will be an excellent manager and strategist in any kind of media business – or company – that he participates in."
+          ]
+        },
+        {
+          "headline": "Stacy Jennings, Director of Marketing, Savannah Morning News (joint former supervisor):",
+          "points": [
+            "Working with Carl is pure joy. He's on top of his digital game no doubt, but he brings his special brand of humor and wit to bear on the marketing and branding department. Carl will thrive in an entrepreneurial environment, wearing multiple hats. He's enthusiastic about 'big data' and tackling complex problems. He's as comfortable working with a team as he is contributing to projects from his own corner of the world. If you're looking for someone who brings a fresh outlook to his work, who is constantly evolving, and who is passionate about building a quality digital experience, look no further than Carl V. Lewis."
+          ]
+        },
+        {
+          "headline": "Josh Rogers, Director, Newtown Macon:",
+          "points": [
+            "While Carl was a student at Mercer University, I had the pleasure of working with him on many projects aimed at Macon's revitalization. In general, Mercer University recruits, nurtures and graduates people who are interested in making positive changes in their communities. Carl exemplified this trait at Mercer, spending time in and out of the classroom improving Macon. I cannot imagine any non-profit in Macon would be as successful without the support of Mercer and Mercer students. In particular, I want to recommend Carl's work on CollegeTownMacon.com. Although tens of thousands of college students attend school in Macon, it has been difficult to connect these students with businesses and activities in the community. We want students to see Macon as their college experience, and not just their specific campus. Carl led a 200-level class in Civic and Community Journalism to build a website to provide an online directory for local experiences for College students to solve this problem. The entire course was built around the production of this website, making Carl largely responsible for the syllabus, including organizing and assigning tasks and research, providing instruction and training for technical, interview and writing skills, managing work flow, editing content and ensuring the timely completion of tasks. Carl's management skills in this course brought together two of his best skills: teaching and project management. By the end of the course, Carl's class delivered a functional website that led a cultural shift among college students in Macon that has had a long-term impact in Macon with more students involved in the community and driving economic development. Carl taught students new skills and then helped those students apply those skills to solve real world problems and have a positive impact in the community. That's an accomplishment that many seasoned instructors struggle to achieve."
+          ]
+        },
+        {
+          "headline": "Grant Blankenship, Multimedia Journalist, Georgia Public Broadcasting:",
+          "points": [
+            "I've known Carl since he was arguably the brightest student in his university journalism program. Since then he has gone on to be the in house innovator everywhere he has been. Carl not only understands where digital journalism needs to be today, he is also thinking about where it needs to go next and how he can help get it there. Every newsroom needs a Carl."
+          ]
+        },
+        {
+          "headline": "Elizabeth Bibb, M.Sc. Candidate at Medill School of Journalism, Integrated Marketing and Communications:",
+          "points": [
+            "During his senior year of college, Carl V. helped me make a long-held dream come true by almost single-handedly conceiving, building and launching the website for The Cluster. Carl V. and I started the conversation about the website in class, and I immediately knew that I had finally found someone who had the skills and drive to make my goal of bringing the newspaper online a reality. Within a month of our initial conversation, Carl had built an easy to use platform, based on Wordpress, for the website. Of our staff of 10 editors, few had experience using Wordpress, and Carl was able to quickly train the editors and myself on posting to and updating the website. He also wrote up documentation for the editors to reference in case they needed help, which allowed them and Carl to use their time more efficiently. The website launched in late February 2011, too late for entry into the Georgia College Press Association awards, but the website that Carl built won 1st place in the 'Best Website' category the following year. Three years later, the website is still running smoothly, which is largely thanks to the extensive manual that Carl developed and left with my successor. Thanks to his effort, The Cluster is now available online and on a mobile app. Carl is able to patiently and efficiently teach new skills to others, and his passion for his work shows through."
+          ]
+        },
+        {
+          "headline": "Amy Brock, Social Media Manager, Visit Savannah:",
+          "points": [
+            "I was privileged to work with Carl on several collaborative social media projects during his time with the Savannah Morning News. His innovative ideas and technical skills played an integral role in how information was communicated at key events in Savannah for visitors such as the 189th St. Patrick's Day Parade and Festival. Carl developed digital systems to establish a central calendar and revamped website and smartphone app for DoSavannah that put the Savannah Morning News on the map as a trusted resource for mainstream and alt events in the area that appealed to locals and visitors. Carl's ability to complete projects under tight deadlines and keep a positive attitude made him an enjoyable partner to work with and I enjoyed collaborating on special projects and promotions with him!"
+          ]
+        },
+        {
+          "headline": "Winston Featherly-Bean, Project Manager, Locus Analytics:",
+          "points": [
+            "Carl set the bar for news reporting at the Oxford Student, where I had the good fortune of working with him as an editor. He was the model of a dedicated, tenacious reporter, bringing intelligence and a craftsman’s passion to every story. Carl innovated too, pitching and executing a successful redesign of the paper’s website. And working with him was a joy on a personal level – he made quite a splash in our stolid British student newsroom. We often held up Carl’s work as an exemplar after he left Oxford. I am sure he will inspire future colleagues too."
+          ]
+        }
+      ]
     }
+  }
 }
